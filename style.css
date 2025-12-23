@@ -13,6 +13,18 @@ button {
 }
 
 .container {
+  display: grid;
+  width: 960px;
+  height: 960px;
+  border: 2px solid #333;
+}
+
+.square {
+  border: 1px solid #ddd;
+}
+
+
+/* .container {
   display: flex;
   flex-wrap: wrap;
   width: 960px;
@@ -24,4 +36,4 @@ button {
   flex: 1 0 calc(100% / 16);
   aspect-ratio: 1 / 1;
   border: 1px solid #ddd;
-}
+} */
